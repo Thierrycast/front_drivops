@@ -5,7 +5,7 @@ import "./style.css";
 
 const inputStyle = {
   borderColor: "#000000",
-  marginBottom: "20px",
+  marginBottom: "2rem",
   "& fieldset.MuiOutlinedInput-notchedOutline": {
     fontSize: "1.8rem",
   },
@@ -29,7 +29,7 @@ const inputStyle = {
       borderRadius: "1rem",
     },
   },
-  marginBottom: "16px",
+  marginBottom: "1.6rem",
   fontSize: "1.5rem",
   "& div.MuiSelect-select": {
     fontSize: "1.5rem",

@@ -13,13 +13,13 @@ import {
   import "./styles.css";
   
   const labelStyles = {
-    fontSize: "16px",
+    fontSize: "1.6rem",
     fontWeight: 600,
   };
   
   const inputStyle = {
     borderColor: "#000000",
-    marginBottom: "20px",
+    marginBottom: "2rem",
     "& fieldset.MuiOutlinedInput-notchedOutline": {
       fontSize: "1.8rem",
     },
@@ -77,6 +77,7 @@ import {
           },
         });
         setOpenModal(false)
+        setForm({ marca: "", modelo: "", estado: "", valor: 0, ano: "" });
       } catch (error) {
         console.log(error);
       }
