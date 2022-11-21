@@ -1,0 +1,21 @@
+.container_graphics {
+    width: 100%;
+    padding: 0 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.graphics {
+
+    background-color: #2cc0e92d;
+
+    width: 40rem;
+    height: 30rem;
+
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}

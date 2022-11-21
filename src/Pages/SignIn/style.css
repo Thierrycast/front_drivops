@@ -1,0 +1,45 @@
+.containerLogin {
+    width: 100vw;
+    height: 100vh;
+    background-color: #172B4D;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardLogin {
+
+
+    width: 40rem;
+    height: 45rem;
+
+    background-color: #F7FAFC;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4rem;
+}
+
+.cardLogin h1 {
+    color: #32325d;
+    margin-bottom: 4rem;
+}
+
+.cardLogin button {
+    width: 10rem;
+    height: 3.5rem;
+    color: #F7FAFC;
+
+    background-color: #5e72e4;
+
+    border: none;
+    border-radius: 1rem;
+
+    margin-bottom: 0.5rem;
+}
